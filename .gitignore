@@ -1,9 +1,7 @@
 node_modules/
+.env
+frontend/node_modules/
+backend/node_modules/
 dist/
 build/
-/.env
-/client/node_modules/
-/.idea/
-.vscode/
-npm-debug.log
-.DS_Store
+/.vscode/

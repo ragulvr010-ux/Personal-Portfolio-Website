@@ -1,3 +1,4 @@
+
 Project Overview
 
 A **Personal Portfolio Website** is a professional website that showcases:
@@ -8,7 +9,6 @@ A **Personal Portfolio Website** is a professional website that showcases:
 - Resume
 - Certifications
 - Contact information
-
 Unlike a simple static portfolio, this project is **full-stack**, meaning it includes:
 
 - Frontend (User Interface)
@@ -19,6 +19,7 @@ Unlike a simple static portfolio, this project is **full-stack**, meaning it inc
 ---
 
 # Project Architecture
+[](https://github.com/ragulvr010-ux/Personal-Portfolio-Website/blob/main/README.md#project-architecture)
 
 ```
 Frontend (React.js)  <-->  Backend (Node.js + Express)  <-->  Database (MongoDB)
@@ -28,9 +29,10 @@ API Requests handled via REST endpoints (JSON over HTTP)
 ---
 
 # Main Modules
+[](https://github.com/ragulvr010-ux/Personal-Portfolio-Website/blob/main/README.md#main-modules)
 
 ## 1. Home Page
-
+[](https://github.com/ragulvr010-ux/Personal-Portfolio-Website/blob/main/README.md#1-home-page)
 Displays:
 
 - Name
@@ -38,24 +40,14 @@ Displays:
 - Short Introduction
 - Career Objective
 
-Example:
-
-```
-Hi, I'm Ragul — Full Stack Developer
-Building modern web applications.
-```
-
----
-
 ## 2. About Me
-
+[](https://github.com/ragulvr010-ux/Personal-Portfolio-Website/blob/main/README.md#2-about-me)
 Contains:
 
 - Education
 - Experience
 - Skills
 - Interests
-
 Example:
 
 ```
@@ -66,7 +58,7 @@ Interested in MERN stack development.
 ---
 
 ## 3. Skills Section
-
+[](https://github.com/ragulvr010-ux/Personal-Portfolio-Website/blob/main/README.md#3-skills-section)
 Show skills with progress bars.
 
 Example:
@@ -83,7 +75,7 @@ MongoDB    — 70%
 ---
 
 ## 4. Projects Section
-
+[](https://github.com/ragulvr010-ux/Personal-Portfolio-Website/blob/main/README.md#4-projects-section)
 Projects are stored in the database.
 
 Each project contains:
@@ -109,7 +101,7 @@ Live Demo Button
 ---
 
 ## 5. Resume Section
-
+[](https://github.com/ragulvr010-ux/Personal-Portfolio-Website/blob/main/README.md#5-resume-section)
 Features:
 
 - View resume
@@ -118,7 +110,7 @@ Features:
 ---
 
 ## 6. Certifications
-
+[](https://github.com/ragulvr010-ux/Personal-Portfolio-Website/blob/main/README.md#6-certifications)
 Display:
 
 - Internship certificates
@@ -128,7 +120,7 @@ Display:
 ---
 
 ## 7. Contact Section
-
+[](https://github.com/ragulvr010-ux/Personal-Portfolio-Website/blob/main/README.md#7-contact-section)
 Form fields:
 
 ```
@@ -143,7 +135,7 @@ Data is sent to the backend and stored in the database.
 ---
 
 # Admin Dashboard (Recommended)
-
+[](https://github.com/ragulvr010-ux/Personal-Portfolio-Website/blob/main/README.md#admin-dashboard-recommended)
 Add a secure admin panel.
 
 Admin can:
@@ -152,14 +144,15 @@ Admin can:
 - Edit projects
 - Delete projects
 - Manage contact messages
-
 This makes the project more professional.
 
 ---
 
 # Database Collections
+[](https://github.com/ragulvr010-ux/Personal-Portfolio-Website/blob/main/README.md#database-collections)
 
 ## Users
+[](https://github.com/ragulvr010-ux/Personal-Portfolio-Website/blob/main/README.md#users)
 
 ```
 {
@@ -171,6 +164,7 @@ This makes the project more professional.
 ```
 
 ## Projects
+[](https://github.com/ragulvr010-ux/Personal-Portfolio-Website/blob/main/README.md#projects)
 
 ```
 {
@@ -185,6 +179,7 @@ This makes the project more professional.
 ```
 
 ## Messages
+[](https://github.com/ragulvr010-ux/Personal-Portfolio-Website/blob/main/README.md#messages)
 
 ```
 {
@@ -198,8 +193,10 @@ This makes the project more professional.
 ---
 
 # Backend APIs
+[](https://github.com/ragulvr010-ux/Personal-Portfolio-Website/blob/main/README.md#backend-apis)
 
 ### Projects
+[](https://github.com/ragulvr010-ux/Personal-Portfolio-Website/blob/main/README.md#projects-1)
 
 ```
 GET    /api/projects
@@ -209,6 +206,7 @@ DELETE /api/projects/:id
 ```
 
 ### Contact
+[](https://github.com/ragulvr010-ux/Personal-Portfolio-Website/blob/main/README.md#contact)
 
 ```
 POST /api/contact
@@ -216,6 +214,7 @@ GET  /api/messages
 ```
 
 ### Authentication
+[](https://github.com/ragulvr010-ux/Personal-Portfolio-Website/blob/main/README.md#authentication)
 
 ```
 POST /api/auth/login
@@ -225,8 +224,10 @@ POST /api/auth/register
 ---
 
 # Tech Stack Recommendation
+[](https://github.com/ragulvr010-ux/Personal-Portfolio-Website/blob/main/README.md#tech-stack-recommendation)
 
 ### Frontend
+[](https://github.com/ragulvr010-ux/Personal-Portfolio-Website/blob/main/README.md#frontend)
 
 - React.js
 - React Router
@@ -234,19 +235,23 @@ POST /api/auth/register
 - Tailwind CSS
 
 ### Backend
+[](https://github.com/ragulvr010-ux/Personal-Portfolio-Website/blob/main/README.md#backend)
 
 - Node.js
 - Express.js
 
 ### Database
+[](https://github.com/ragulvr010-ux/Personal-Portfolio-Website/blob/main/README.md#database)
 
 - MongoDB
 
 ### Authentication
+[](https://github.com/ragulvr010-ux/Personal-Portfolio-Website/blob/main/README.md#authentication-1)
 
 - JWT
 
 ### Deployment
+[](https://github.com/ragulvr010-ux/Personal-Portfolio-Website/blob/main/README.md#deployment)
 
 - Frontend → Vercel
 - Backend → Render
@@ -255,7 +260,7 @@ POST /api/auth/register
 ---
 
 # Advanced Features (For Resume/Internship Selection)
-
+[](https://github.com/ragulvr010-ux/Personal-Portfolio-Website/blob/main/README.md#advanced-features-for-resumeinternship-selection)
 Add:
 
 - Dark/Light Mode
@@ -273,7 +278,7 @@ Add:
 ---
 
 # Expected Outcome
-
+[](https://github.com/ragulvr010-ux/Personal-Portfolio-Website/blob/main/README.md#expected-outcome)
 After completing this project, you will learn:
 
 - React frontend development
@@ -285,13 +290,13 @@ After completing this project, you will learn:
 - Professional portfolio development
 
 ### Difficulty Level
-
+[](https://github.com/ragulvr010-ux/Personal-Portfolio-Website/blob/main/README.md#difficulty-level)
 **Beginner to Intermediate**
 
 ### Estimated Development Time
+[](https://github.com/ragulvr010-ux/Personal-Portfolio-Website/blob/main/README.md#estimated-development-time)
 
 - Basic Version: 2–3 days
 - Professional Version: 1 week
-
 For your internship and placement portfolio, I recommend building the **Professional MERN Portfolio Website with Admin Dashboard, Project Management, Resume Download, Contact System, Dark Mode, and MongoDB integration**, as it demonstrates full-stack development skills rather than just a static portfolio.
 
